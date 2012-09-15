@@ -13,7 +13,8 @@
 -(void) mySimplePlugin:(NSMutableArray*)arguments
             withDict:(NSMutableDictionary*)options
 {
-    [self writeJavascript:@"cordova.fireDocumentEvent('bastardEvent', {text: 'I\\'ll give you an offer you can\\'t refuse', image: 'DonWheels.gif'})"];
+    NSString *bastardCallbackId = [arguments objectAtIndex:1];
+    [self writeJavascript:[NSString stringWithFormat:@"bastard.runCallback('%@');", bastardCallbackId]];
 }
 
 @end
