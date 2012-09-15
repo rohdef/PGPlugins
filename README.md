@@ -1,20 +1,11 @@
-# Example: 2 - Simple callback
+# Example: 3 - Arguments
 
-This shows how to do a basic callback in PhoneGap.
+This adds an argument to example 2.
 
 ## Interesting files:
 
 ### pgplugins/Plugins/PluginExamples.m and pgplugins/Plugins/PluginExamples.h
-Reads the first argument, which is a callback id that PhoneGap 
-generates. This used to tell PhoneGap what function to call 
-later on.
-
-Use the `doSuccess` boolean to try the success and error 
-callbacks.
-
-The `CDVPluginResult` class from the cordova api is used to 
-generate the callback, specifying the status and result data.
+Checks if the argument is 'ok' and writes an error if not.
 
 ### www/pluginExample.js
-Not much to say. Creates too functions and send them to the 
-`cordova.exec` call, so they can be used from the native code.
+Added the argument to the call to `cordova.exec`.

@@ -13,14 +13,11 @@
 -(void) mySimplePlugin:(NSMutableArray*)arguments
             withDict:(NSMutableDictionary*)options
 {
-    // First argument always contains callback id that PhoneGap generates
     NSString *callback = [arguments pop];
+    NSString *myArgument = [arguments pop];
     NSString *resultScript;
     
-    // YES for a success callback, NO for an error
-    bool doSuccess = YES;
-    
-    if (doSuccess) {
+    if ([myArgument isEqualToString:@"ok"]) {
         // Creates a simple success response and put the JavaScript in resultScript
         CDVPluginResult *result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"It works :)"];
         resultScript = [result toSuccessCallbackString:callback];

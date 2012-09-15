@@ -19,7 +19,7 @@ function runPlugin() {
     "PGPlugins",        // Plugin name
                         // named in Cordova.plist
     "mySimplePlugin",   // Method name
-    []                  // Arguments
+    ['Ok']              // Arguments
     );
 };
 
