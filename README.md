@@ -1,30 +1,20 @@
-# Example: 1 - Basic plugin
+# Example: 2 - Simple callback
 
-This plugin is a proof of concept. What is does is send a signal 
-to a PhoneGap plugin and send a simple JavaScript alert back 
-to the web code.
+This shows how to do a basic callback in PhoneGap.
 
 ## Interesting files:
-Most of the files are just standard files. In the _www_ folder I have 
-made an simple html-file containing a button that runs the 
-JavaScript and an div-tag for later responses.
-
-### pgplugins/Cordova.plist
-Maps native to JavaScript, so JavaScript can reach the native code. 
-The plugins entry is a dictionary containing mappings for plugins. 
-The keys is used in JavaScript to reference the plugin (PGPlugins 
-in this example), the value identifies which class to execute the 
-method in (PluginExamples in this example).
 
 ### pgplugins/Plugins/PluginExamples.m and pgplugins/Plugins/PluginExamples.h
-Is almost a normal Objective C class. It has to extend CDVPlugin 
-Here you define the methods that you want to call from JavaScript. 
-Only 'special' thing is that the methods has to be named:
+Reads the first argument, which is a callback id that PhoneGap 
+generates. This used to tell PhoneGap what function to call 
+later on.
 
-    yourMethodName:(NSMustableArray*)arguements withDict:(NSMutableDictionary*)options
+Use the `doSuccess` boolean to try the success and error 
+callbacks.
 
-The dictionary is a legacy from older version of PhoneGap, but it 
-still has to be there.
+The `CDVPluginResult` class from the cordova api is used to 
+generate the callback, specifying the status and result data.
 
 ### www/pluginExample.js
-This file calls the plugin using the mapping from _Cordova.plist_.
+Not much to say. Creates too functions and send them to the 
+`cordova.exec` call, so they can be used from the native code.
