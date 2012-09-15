@@ -26,10 +26,10 @@
 	<array/>
 	<key>Plugins</key>
 	<dict>
-		<key>Device</key>
-		<string>CDVDevice</string>
 		<key>PGPlugins</key>
 		<string>PluginExamples</string>
+		<key>Device</key>
+		<string>CDVDevice</string>
 		<key>Logger</key>
 		<string>CDVLogger</string>
 		<key>Compass</key>

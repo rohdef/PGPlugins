@@ -14,6 +14,8 @@
             withDict:(NSMutableDictionary*)options
 {
     NSLog(@"Hello there");
+    
+    [self writeJavascript:@"alert('This is executed from Objective C :)');"];
 }
 
 @end
