@@ -5,13 +5,14 @@ function runPlugin() {
     "PGPlugins",        // Plugin name
                         // named in Cordova.plist
     "mySimplePlugin",   // Method name
-    []                 // Arguments
+    []                  // Arguments
     );
 };
 
-function eventHandler() {
+function eventHandler(data) {
   var div = document.getElementById('response');
-  div.innerHTML = '<p>Bastard event recieved</p>';
+  div.innerHTML = '<p>' + data.text + '</p>'
+    + '<img src="' + data.image + '">';
 }
 
 document.addEventListener(

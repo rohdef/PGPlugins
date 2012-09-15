@@ -1,13 +1,12 @@
-# Example: 4 - Events
+# Example: 5 - Events with arguments
 
-Sends an event to JavaScript using normal JavaScript handlers.
+Added some result data to example 4.
 
 ## Interesting files:
 
 ### pgplugins/Plugins/PluginExamples.m and pgplugins/Plugins/PluginExamples.h
-Writes to a JavaScript `document.addEventListener`. The callback is 
-made using cordova's nice helper `cordova.fireDocumentEvent`, there's 
-also one for window events: `cordova.fireWindowEvent`.
+Added a simple JavaScript object to the payload, to 
+enable sending data with the event.
 
 ### www/pluginExample.js
 Just standard JavaScript.

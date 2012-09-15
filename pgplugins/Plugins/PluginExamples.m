@@ -13,7 +13,7 @@
 -(void) mySimplePlugin:(NSMutableArray*)arguments
             withDict:(NSMutableDictionary*)options
 {
-    [self writeJavascript:@"cordova.fireDocumentEvent('bastardEvent')"];
+    [self writeJavascript:@"cordova.fireDocumentEvent('bastardEvent', {text: 'I\\'ll give you an offer you can\\'t refuse', image: 'DonWheels.gif'})"];
 }
 
 @end
