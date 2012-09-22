@@ -7,6 +7,9 @@ Ok, I know it, this isn't much :p
 This is an exelent place to look for more information. Pick some example close 
 to what you need and see how others solve the problem - easiest way to learn IMO.
 
+## The #PhoneGap irc channel on Freenode.net
+Good place to ask when in doubt.
+
 ## Navigation
 [List of examples](https://github.com/rohdef/PGPlugins/)
 
