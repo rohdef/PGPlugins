@@ -2,7 +2,7 @@
 This Shows how to structure a  plugin for real world use. This is basically a wrapper to 
 keep the use nice and clean.
 
-## PluginStructure.js [PluginStructure.js](https://github.com/rohdef/PGPlugins/blob/Appendix_A_Plugin_structure/PluginStructure.js)
+## [PluginStructure.js](https://github.com/rohdef/PGPlugins/blob/Appendix_A_Plugin_structure/PluginStructure.js)
 Creates a simple JavaScript object containing a function for the callback. Add whatever 
 functions you need to the structure you need them in. Remember to replace the names in 
 this example with names that fits your needs. 
