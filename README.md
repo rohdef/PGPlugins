@@ -13,4 +13,5 @@ This mostly follows the examples I did at PhoneGap Day EU 2012. I modified them 
 
 ## Appendixes
 A. [Plugin structure](https://github.com/rohdef/PGPlugins/tree/Appendix_A_Plugin_structure)
+
 B. [Further reading](https://github.com/rohdef/PGPlugins/tree/Appendix_B_Further_reading)
