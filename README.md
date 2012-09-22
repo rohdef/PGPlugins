@@ -11,3 +11,10 @@ also one for window events: `cordova.fireWindowEvent`.
 
 ### www/pluginExample.js
 Just standard JavaScript.
+
+## Navigation
+[Next: 5 Evet with arguments](https://github.com/rohdef/PGPlugins/tree/5_Event_With_Arguments)
+
+[List of examples](https://github.com/rohdef/PGPlugins/)
+
+[Previous: 3 Arguments](https://github.com/rohdef/PGPlugins/tree/3_Arguments)
