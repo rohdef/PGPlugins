@@ -28,3 +28,8 @@ still has to be there.
 
 ### www/pluginExample.js
 This file calls the plugin using the mapping from _Cordova.plist_.
+
+## Navigation
+[Next: 2 Simple callback](https://github.com/rohdef/PGPlugins/tree/2_Simple_callback)
+
+[List of examples](https://github.com/rohdef/PGPlugins/)
