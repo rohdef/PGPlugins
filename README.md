@@ -10,3 +10,10 @@ enable sending data with the event.
 
 ### www/pluginExample.js
 Just standard JavaScript.
+
+## Navigation
+[Next: 6 Advanced callback](https://github.com/rohdef/PGPlugins/tree/6_Advanced_callback)
+
+[List of examples](https://github.com/rohdef/PGPlugins/)
+
+[Previous: 4 Events](https://github.com/rohdef/PGPlugins/tree/4_Events)
