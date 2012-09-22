@@ -21,3 +21,10 @@ And two methods, one for executing stored callbacks, and
 one to add a callback and execute the plugin with the 
 callback id. Note that the id should probably be generated 
 in the real use.
+
+## Navigation
+[Next: Appendix A - Plugin structure](https://github.com/rohdef/PGPlugins/tree/Appendix_A_Plugin_structure)
+
+[List of examples](https://github.com/rohdef/PGPlugins/)
+
+[Previous: 5 Event with arguments](https://github.com/rohdef/PGPlugins/tree/5_Event_With_Arguments)
