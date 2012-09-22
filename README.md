@@ -1,15 +1,13 @@
-# Appendix A - Plugin structure
-This Shows how to structure a  plugin for real world use. This is basically a wrapper to 
-keep the use nice and clean.
+# Appendix B - Further reading
+Ok, I know it, this isn't much :p
 
-## [PluginStructure.js](https://github.com/rohdef/PGPlugins/blob/Appendix_A_Plugin_structure/PluginStructure.js)
-Creates a simple JavaScript object containing a function for the callback. Add whatever 
-functions you need to the structure you need them in. Remember to replace the names in 
-this example with names that fits your needs. 
+##[The official guide](http://docs.phonegap.com/en/2.0.0/guide_plugin-development_index.md.html)
+
+## [PhoneGap plugins at GitHub](https://github.com/phonegap/phonegap-plugins)
+This is an exelent place to look for more information. Pick some example close 
+to what you need and see how others solve the problem - easiest way to learn IMO.
 
 ## Navigation
-[Next: Appendix B - Further reading](https://github.com/rohdef/PGPlugins/tree/Appendix_B_Further_reading)
-
 [List of examples](https://github.com/rohdef/PGPlugins/)
 
-[Previous: 6 Advanced callback](https://github.com/rohdef/PGPlugins/tree/6_Advanced_callback)
+[Previous: Appendix A - Plugin structure](https://github.com/rohdef/PGPlugins/tree/Appendix_A_Plugin_structure)
