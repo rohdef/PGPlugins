@@ -1,30 +1,15 @@
-# Example: 6 - Callback
-This is a bit more complex. PhoneGap can't send functions 
-from JavaScript to native. Therefore I create an dictionary 
-of callbacks in JavaScript, and pass the key as argument to 
-the native part. Later the native code can execute callback 
-addressing it using this key.
+# Appendix A - Plugin structure
+This Shows how to structure a  plugin for real world use. This is basically a wrapper to 
+keep the use nice and clean.
 
-## Interesting files:
-
-### pgplugins/Plugins/PluginExamples.m and pgplugins/Plugins/PluginExamples.h
-Calls a JavaScript function using the passed argument. 
-This in turn accesses the callback dictionary and execute 
-the stored callback.
-
-### www/pluginExample.js
-Even though this is the most complex of the JavaScript in 
-these examples, it's still _just_ standard JavaScript.
-
-This creates an object with an dictionary to callbacks. 
-And two methods, one for executing stored callbacks, and 
-one to add a callback and execute the plugin with the 
-callback id. Note that the id should probably be generated 
-in the real use.
+## PluginStructure
+Creates a simple JavaScript object containing a function for the callback. Add whatever 
+functions you need to the structure you need them in. Remember to replace the names in 
+this example with names that fits your needs. 
 
 ## Navigation
-[Next: Appendix A - Plugin structure](https://github.com/rohdef/PGPlugins/tree/Appendix_A_Plugin_structure)
+[Next: Appendix B - Further reading](https://github.com/rohdef/PGPlugins/tree/Appendix_B_Further_reading)
 
 [List of examples](https://github.com/rohdef/PGPlugins/)
 
-[Previous: 5 Event with arguments](https://github.com/rohdef/PGPlugins/tree/5_Event_With_Arguments)
+[Previous: 6 Advanced callback](https://github.com/rohdef/PGPlugins/tree/6_Advanced_callback)
