@@ -18,3 +18,10 @@ generate the callback, specifying the status and result data.
 ### www/pluginExample.js
 Not much to say. Creates too functions and send them to the 
 `cordova.exec` call, so they can be used from the native code.
+
+## Navigation
+[Next: 3 Arguments](https://github.com/rohdef/PGPlugins/tree/3_Arguments)
+
+[List of examples](https://github.com/rohdef/PGPlugins/)
+
+[Previous: 1 Basic plugin](https://github.com/rohdef/PGPlugins/tree/1_Basic_plugin)
